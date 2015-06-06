@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="Problem1.MultiplesOf3And5.fs" />
     <Compile Include="Problem2.EvenFibonacciNumbers.fs" />
+    <Compile Include="Problem3.LargestPrimeFactor.fs" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
