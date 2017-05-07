@@ -42,7 +42,6 @@
     <Reference Include="System.Numerics" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Common.fs" />
     <Compile Include="Problem1.MultiplesOf3And5.fs" />
     <Compile Include="Problem2.EvenFibonacciNumbers.fs" />
     <Compile Include="Problem3.LargestPrimeFactor.fs" />
