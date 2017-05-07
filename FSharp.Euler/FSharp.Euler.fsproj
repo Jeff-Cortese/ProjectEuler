@@ -45,6 +45,7 @@
     <Compile Include="Problem1.MultiplesOf3And5.fs" />
     <Compile Include="Problem2.EvenFibonacciNumbers.fs" />
     <Compile Include="Problem3.LargestPrimeFactor.fs" />
+    <Compile Include="Problem4.ThreeDigitProductPalindrome.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
   <PropertyGroup>
