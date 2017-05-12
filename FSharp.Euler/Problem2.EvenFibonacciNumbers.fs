@@ -7,7 +7,7 @@ let isEven x =
     x % 2 = 0
 
 
-let getFibsUntil predicate =
+let getFibsWhile predicate =
     let rec getFibsInner previous i fibs =
         let next = previous + i
 
@@ -19,7 +19,7 @@ let getFibsUntil predicate =
 
 
 let sumOfEvenFibNumbersTo sumTo =
-    getFibsUntil (fun i -> i < sumTo)
+    getFibsWhile (fun i -> i < sumTo)
     |> Seq.filter isEven
     |> Seq.sum
 
